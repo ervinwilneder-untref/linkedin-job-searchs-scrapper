@@ -8,4 +8,12 @@ Instrucciones:
 
 Las búsquedas específicamente para la Lic. en Estadística se disponibilizan en https://docs.google.com/spreadsheets/d/1frb664xKeEVUeuYKTds4ICMWd8qf48yPMJgKQ6vwdD4
 
+Explicación general de cómo está construído / cómo funciona:
+
+La "aplicación" tiene esencialmente dos partes:
+* Extracción de los datos:
+> Se realiza utilizando node.js (un framework de javascript) y la librería puppeteer https://pptr.dev/. De la misma manera que si uno ingresara a cada página de búsquedas laborales de LinkedIn con su correspondiente palabra clave y demás filtros, esta librería automatiza esa tarea. Es decir, al ejecutar la aplicación, el navegador (Chrome) se abre, navega a las distintas páginas y extrae la info de cada búsqueda laboral que aparece en el listado. Estos datos se guardan como un .json
+* Parseo y transformación de datos:
+> Està hecho en python (puntualmente el archivo etl.py) que toma el .json y hace una serie de transformacion con pandas para dejar disponible los datos como .csv. Está configurado para ir appendeando en el data.csv cada vez que se ejecuta. Ese archivo es el que luego se importa a la gsheet que mencioné más arriba.
+
 Cualquier consulta me pueden escribir
