@@ -1,0 +1,18 @@
+{
+  "name": "linkedin-estadistica",
+  "version": "1.0.0",
+  "description": "CLI for Linkedin Job Posting data extraction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ervin Wilneder",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "objects-to-csv": "^1.3.6",
+    "puppeteer-core": "^5.5.0"
+  }
+}
