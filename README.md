@@ -6,7 +6,7 @@ Instrucciones:
 * npm install en el directorio de la aplicación (para instalar módulos de node)
 * Correr run.cmd (o ejecutar manualmente los comandos de este archivo)
 
-Las búsquedas específicamente para la Lic. en Estadística se disponibilizan en https://docs.google.com/spreadsheets/d/1frb664xKeEVUeuYKTds4ICMWd8qf48yPMJgKQ6vwdD4
+Las búsquedas específicamente para la Lic. en Estadística se disponibilizan en https://docs.google.com/spreadsheets/d/1lJ_Wp8ltR1UxQ_8e3AMp3yEqU0mD43u374h2-QlwVrA/edit?usp=sharing
 
 Explicación general de cómo está construído / cómo funciona:
 
